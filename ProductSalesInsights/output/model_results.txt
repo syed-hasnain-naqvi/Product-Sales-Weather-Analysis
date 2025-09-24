@@ -1,0 +1,38 @@
+===============================================
+ Project 1: Product Sales Insights
+ Model Results (RMSE & MAE)
+===============================================
+
+--- Linear Regression Models ---
+Product 5:
+  RMSE = 304.23
+  MAE  = 232.54
+
+Product 9:
+  RMSE = 264.93
+  MAE  = 207.70
+
+Product 45:
+  RMSE = 270.79
+  MAE  = 212.50
+
+--- Decision Tree Models ---
+Product 5:
+  RMSE = 315.93
+  MAE  = 256.82
+
+Product 9:
+  RMSE = 269.12
+  MAE  = 213.42
+
+Product 45:
+  RMSE = 269.51
+  MAE  = 211.17
+
+===============================================
+ Notes:
+ - Linear Regression models generally performed better than Decision Trees 
+   in terms of RMSE/MAE.
+ - Product 9 showed the best model performance overall.
+ - Weekend effect and temperature are significant predictors across products.
+===============================================
